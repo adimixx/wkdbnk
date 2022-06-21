@@ -1,0 +1,83 @@
+body
+{
+	background-color: yellow;
+	align-content: center;
+	align-self: center;
+	alignment-baseline: central;
+	align-items: center;
+	text-align: center;
+}
+
+img
+{
+	max-width: 100%;
+}
+
+input
+{
+	text-transform: uppercase;
+}
+
+#keluar
+{
+	align-content: left;
+	align-self: left;
+	alignment-baseline: left;
+	align-items: left;
+	text-align: left;
+}
+#logo
+{
+	color: black;
+	font-style: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+form
+{
+	align-content: center;
+	align-self: center;
+	alignment-baseline: central;
+	align-items: center;
+	text-align: center;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}

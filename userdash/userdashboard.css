@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	background-image: url("../image/a1.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+}
+
+.bal{
+	background-image: url("../image/a2.jpg");
+}
+
+body, html {
+    height: 100%;
+}
+header
+{
+	text-decoration: none;
+	background-image: url("../image/dashboardheader.png");
+	color: white;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+table
+{
+	width: 100%;
+	margin: auto;
+}
+
+
+.buttongrp{
+    padding: 10px 24px; /* Some padding */
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttongrp button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.buttongrp:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.buttongrp button:hover {
+    background-color: blue;
+}
+
+.bcol img{
+	width: 100%;
+}
+.bcol{
+
+	position: relative;
+    text-align: center;
+}
+
+.btext{
+	position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+td a{
+	text-decoration: none;
+}
+
+.personal, .pwd
+{
+	color: white;
+	background-image: url("../image/a2.png");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: auto;
+    width: 50%;
+    border: 5px solid #000080;
+    padding: 10px;
+}
+
+h3
+{
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}

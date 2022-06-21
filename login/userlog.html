@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" type="text/css" href="../image/bank.png">
+	<br>
+	<div>
+		<img src="../image/user.png" width="150" height="150">
+	</div>
+</head>
+<body>
+	<form id = "contact-form" action="ulogin.php" method="POST" >
+		<h1>User Login</h1>
+		Username <br>
+		<input type="text" name="user" class="form-control" required>
+		<br>
+		Password <br>
+		<input type="password" name="pass" class="form-control" required pattern=".{8,}" required title="8 characters minimum">
+		<br>
+		<input type="submit" value="Log-in" class="form-contol submit">
+		<br><br>
+		<a href="updateuser.html"><img src="../image/forget.png" width="50" height="50"></a> &nbsp;
+		<a href="../index.html"><img src="../image/back.png" width="50" height="50"></a> &nbsp;
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	background-image: url("../image/a1.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+}
+
+body, html {
+    height: 100%;
+}
+header
+{
+	text-decoration: none;
+	background-image: url("../image/dashboardheader.png");
+	color: white;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+table
+{
+	width: 100%;
+	margin: auto;
+}
+
+.a{
+	background-image: url("../image/a1.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	min-height: 40%;
+	text-align: center;
+}
+
+.b{
+	height: 20%;
+}
+.btable{
+	color: black;
+}
+
+.bcol img{
+	width: 60%;
+}
+.bcol{
+	width: 25%;
+	position: relative;
+    text-align: center;
+}
+
+.btext{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td a{
+	text-decoration: none;
+}
+
+h3
+{
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.buttongrp{
+    padding: 10px 24px; /* Some padding */
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttongrp button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.buttongrp:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.buttongrp button:hover {
+    background-color: blue;
+}
+
+.bcol img{
+	width: 100%;
+}
+.bcol{
+
+	position: relative;
+    text-align: center;
+}
+
+.btext{
+	position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}

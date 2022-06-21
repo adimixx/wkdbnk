@@ -1,0 +1,87 @@
+body{
+	background-image: url(../image/back.jpg);
+	max-height: 100% ; width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+    height: 100%;
+}
+
+header
+{
+	text-decoration: none;
+	background-image: url("../image/dashboardheader.png");
+	color: white;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+table
+{
+	width: 100%;
+	margin: auto;
+}
+
+td a{
+	text-decoration: none;
+}
+
+.heading{
+	font-size: 30px;
+	font-family: OCR A Std,cursive;
+	text-align: center;
+	color: blue;
+	position: center;
+}
+
+.word{
+	font-size: 25px;
+	font-family: Berlin Sans FB,cursive;
+	text-align: center;
+	color: black;
+}
+
+
+form .submit {
+	background: orange;
+	border-color: transparent;
+	border-radius: 12px;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit:hover {
+	background-color: #f44336;
+	cursor: pointer;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.buttongrp{
+    padding: 10px 24px; 
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.buttongrp button:not(:last-child) {
+    border-right: none; 
+}
+
+.buttongrp:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.buttongrp button:hover {
+    background-color: blue;
+}

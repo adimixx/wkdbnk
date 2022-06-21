@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register :: Wakanda Bank</title>
+</head>
+<body>
+
+<header>
+<a href="../vadmindash/admindashboard.php"><img src="../image/mybank header.png" height="100px"></a>
+</header>
+	<h1>REGISTER FOR ONLINE BANKING</h1>
+
+	<link rel="stylesheet" type="text/css" href="registration.css">
+<div  class="form">
+            <form id="contactform" action="daftar.php" method="POST">
+
+                <p class="contact"><label for="name">Name</label></p>
+
+                <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text">
+
+ 
+
+                <p class="contact"><label for="email">Email</label></p>
+
+                <input id="email" name="email" placeholder="example@domain.com" required="" type="email">
+
+ 
+
+                <p class="contact"><label for="username">Create a username</label></p>
+
+                <input id="username" name="username" placeholder="username" required="" tabindex="2" type="text">
+
+ 
+
+                <p class="contact"><label for="password">Create a password</label></p>
+
+                <input type="password" id="password" name="password" required="" type="text" pattern=".{8,}">
+                
+
+                <p class="contact"><label for="repassword">Confirm your password</label></p>
+
+                <input type="password" id="password" name="password" required="" type="text" pattern=".{8,}">
+               <fieldset>
+
+              <label>Birthday</label>
+              <input type="date" name="Birth" required>
+              <br>
+                  
+
+              <label>Balance in Account
+              <input class="Balance" maxlength="4" name="Balance" placeholder="RM" required=""></label>
+
+             <h4>Account Type</h4>
+             <select class="select-style gender" name="acctype">
+             <option value="Savings Account">Savings Account</option>
+             <option value="Current Account">Current Account</option>
+             <option value="Mudarabah Account">Mudarabah Account</option>
+             </select><br>
+ 
+            <h4>Gender</h4>
+            <select class="select-style gender" name="gender">
+
+            <option value="Male">Male</option>
+
+            <option value="Female">Female</option>
+
+            </select><br><br>
+
+            <p class="contact"><label for="phone">Mobile phone</label></p>
+
+            <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
+
+            <input class="button" name="submit" id="submit" tabindex="5" value="Sign up!" type="submit">   
+   </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax,.daftarblank {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax{
+   background-image: url("image/test3.jpg");
+}
+
+.daftarblank{
+    background-image: url("image/test3.jpg");
+}
+.tablemain{
+	width: auto;
+	margin: auto;
+    padding: 200px 0;
+}
+
+.registerbut{
+    width: 410px;
+}
+
+a {
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 410px;
+}
+
+li {
+    float: left;
+    width: 205px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+ 	background-color: #111;
+
+}
+
+@media only screen and (max-width: 500px) { 
+    body, html {
+    height: 100%;
+    width: 100%;
+    }
+
+    .adminbut {
+       display:none; 
+    }
+
+    li {
+    float: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 205px;
+    }
+    
+    li a{
+        padding: 30px 0;
+    }
+    ul{
+        width: 100%;
+    }
+    .tablemain{
+    width: auto;
+    margin: auto;
+    padding: 150px 0;
+    }
+
+    .wakan{
+        width: 70%;
+        height: auto;
+    }
+}
